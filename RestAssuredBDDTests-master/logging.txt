@@ -1,0 +1,1250 @@
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:05   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:06   ***
+******************************************************
+
+Request method:	POST
+Request URI:	http://localhost:8000/api/v1/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test@test.com",
+    "password": "4nak1n"
+}
+HTTP/1.1 201 Created
+Server: nginx/1.21.0
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.3.28
+Cache-Control: no-cache, private
+Date: Sat, 26 Jun 2021 10:23:06 GMT
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 59
+
+{
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE2MjQ3MDI5ODYsImV4cCI6MTYyNDcwNjU4NiwibmJmIjoxNjI0NzAyOTg2LCJqdGkiOiJkbndRcWtQUjI2dWF2cFI5Iiwic3ViIjoxMDAxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.WAnVNz3jijAM3MA8KgOkqZyzEIOr8Cgc-sj3FAcXZGo",
+    "token_type": "bearer",
+    "expires_in": 3600,
+    "user_id": 1001
+}
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:07   ***
+******************************************************
+
+Request method:	POST
+Request URI:	http://localhost:8000/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE2MjQ3MDI5ODYsImV4cCI6MTYyNDcwNjU4NiwibmJmIjoxNjI0NzAyOTg2LCJqdGkiOiJkbndRcWtQUjI2dWF2cFI5Iiwic3ViIjoxMDAxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.WAnVNz3jijAM3MA8KgOkqZyzEIOr8Cgc-sj3FAcXZGo
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "A newly created task"
+}
+HTTP/1.1 201 Created
+Server: nginx/1.21.0
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.3.28
+Cache-Control: no-cache, private
+Date: Sat, 26 Jun 2021 10:23:07 GMT
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 59
+
+{
+    "data": {
+        "id": 2098,
+        "title": "A newly created task",
+        "due_at": null,
+        "is_completed": false,
+        "author": {
+            "id": 1001,
+            "name": "test",
+            "email": "test@test.com"
+        }
+    }
+}
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:07   ***
+******************************************************
+
+Request method:	GET
+Request URI:	http://localhost:8000/api/v1/tasks/2098
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=2098
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE2MjQ3MDI5ODYsImV4cCI6MTYyNDcwNjU4NiwibmJmIjoxNjI0NzAyOTg2LCJqdGkiOiJkbndRcWtQUjI2dWF2cFI5Iiwic3ViIjoxMDAxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.WAnVNz3jijAM3MA8KgOkqZyzEIOr8Cgc-sj3FAcXZGo
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx/1.21.0
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.3.28
+Cache-Control: no-cache, private
+Date: Sat, 26 Jun 2021 10:23:07 GMT
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 58
+
+{
+    "data": {
+        "id": 2098,
+        "title": "A newly created task",
+        "due_at": null,
+        "is_completed": false,
+        "author": {
+            "id": 1001,
+            "name": "test",
+            "email": "test@test.com"
+        }
+    }
+}
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:07   ***
+******************************************************
+
+Request method:	GET
+Request URI:	http://localhost:8000/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE2MjQ3MDI5ODYsImV4cCI6MTYyNDcwNjU4NiwibmJmIjoxNjI0NzAyOTg2LCJqdGkiOiJkbndRcWtQUjI2dWF2cFI5Iiwic3ViIjoxMDAxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.WAnVNz3jijAM3MA8KgOkqZyzEIOr8Cgc-sj3FAcXZGo
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx/1.21.0
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.3.28
+Cache-Control: no-cache, private
+Date: Sat, 26 Jun 2021 10:23:07 GMT
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 57
+
+{
+    "data": [
+        {
+            "id": 1001,
+            "title": "Qui nesciunt voluptas vitae culpa nam.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 1002,
+            "title": "Maiores qui ipsam consequatur id omnis et minima.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 1003,
+            "title": "Nesciunt et quos illum sunt.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 1004,
+            "title": "Dolorum voluptatum quia aliquam neque consequatur quas eum.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 1005,
+            "title": "Perspiciatis reiciendis tenetur odio.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 1006,
+            "title": "Et tenetur nobis id fuga enim quo error.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 1007,
+            "title": "Id saepe sed laborum natus est nihil.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 1008,
+            "title": "Deleniti odio aliquam placeat.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 1009,
+            "title": "Blanditiis porro et dolorum sed eveniet officia molestiae.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 1010,
+            "title": "Iste iste dicta dignissimos dignissimos et porro.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2012,
+            "title": "Dolorem sed iste ut impedit corrupti.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2013,
+            "title": "A laudantium velit dicta ex mollitia sunt rerum.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2014,
+            "title": "Dolores impedit et sed placeat nemo enim itaque.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2015,
+            "title": "Porro accusantium qui qui quasi sapiente.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2016,
+            "title": "Occaecati repellendus optio nobis id quia consequuntur.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2017,
+            "title": "Aperiam quam rerum dicta et delectus.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2018,
+            "title": "Quia alias recusandae non voluptas voluptas.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2019,
+            "title": "Facilis dolorem at non provident non voluptas blanditiis eaque.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2020,
+            "title": "Est velit quo maxime voluptatem voluptatem officiis.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2021,
+            "title": "Ipsa laboriosam modi facere nisi velit.",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2023,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2024,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2025,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2026,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2027,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2028,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2029,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2030,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2031,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2032,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2033,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2034,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2035,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2036,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2037,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2038,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2039,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2040,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2041,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2042,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2043,
+            "title": "dfgfdfdg",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2044,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2045,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2046,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2047,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2048,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2049,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2050,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2051,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2052,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2053,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2054,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2055,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2056,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2057,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2058,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2059,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2060,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2061,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2062,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2063,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2065,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2066,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2067,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2068,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2069,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2070,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2071,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2072,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2073,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2074,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2075,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2076,
+            "title": "Update Task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2077,
+            "title": "Update Task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2078,
+            "title": "Update Task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2086,
+            "title": "L",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2087,
+            "title": "A newly fdsfds taskfdgfdg",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2088,
+            "title": "dfgfdfdg",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2090,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2092,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        },
+        {
+            "id": 2098,
+            "title": "A newly created task",
+            "due_at": null,
+            "is_completed": false,
+            "author": {
+                "id": 1001,
+                "name": "test",
+                "email": "test@test.com"
+            }
+        }
+    ]
+}
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:07   ***
+******************************************************
+
+Request method:	PUT
+Request URI:	http://localhost:8000/api/v1/tasks/2098
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=2098
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE2MjQ3MDI5ODYsImV4cCI6MTYyNDcwNjU4NiwibmJmIjoxNjI0NzAyOTg2LCJqdGkiOiJkbndRcWtQUjI2dWF2cFI5Iiwic3ViIjoxMDAxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.WAnVNz3jijAM3MA8KgOkqZyzEIOr8Cgc-sj3FAcXZGo
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Update Task"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.21.0
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.3.28
+Cache-Control: no-cache, private
+Date: Sat, 26 Jun 2021 10:23:07 GMT
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 56
+
+{
+    "data": {
+        "id": 2098,
+        "title": "Update Task",
+        "due_at": null,
+        "is_completed": false,
+        "author": {
+            "id": 1001,
+            "name": "test",
+            "email": "test@test.com"
+        }
+    }
+}
+
+******************************************************
+***   Takeaway Request Sent at: 26/06/2021 13:23:07   ***
+******************************************************
+
+Request method:	DELETE
+Request URI:	http://localhost:8000/api/v1/tasks/2098
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=2098
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2F1dGgvbG9naW4iLCJpYXQiOjE2MjQ3MDI5ODYsImV4cCI6MTYyNDcwNjU4NiwibmJmIjoxNjI0NzAyOTg2LCJqdGkiOiJkbndRcWtQUjI2dWF2cFI5Iiwic3ViIjoxMDAxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.WAnVNz3jijAM3MA8KgOkqZyzEIOr8Cgc-sj3FAcXZGo
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.21.0
+Connection: keep-alive
+X-Powered-By: PHP/7.3.28
+Cache-Control: no-cache, private
+Date: Sat, 26 Jun 2021 10:23:08 GMT
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 55
