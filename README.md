@@ -32,7 +32,7 @@
 	* Response times are calculated in stress test scenarios. In general, a threshold value of 1000 ms was defined.
 	* If you want to run stress tests in multiple threads add the following code file to pom.xml. You can run it with the following command.
 	
-	```xml
+```
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
@@ -42,7 +42,7 @@
         <useUnlimitedThreads>true</useUnlimitedThreads>
     </configuration>
 </plugin>
-``` 
+```
 
 ### Test Automation Framework Guidelines:
 
