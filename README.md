@@ -32,6 +32,17 @@
 	* Response times are calculated in stress test scenarios. In general, a threshold value of 1000 ms was defined.
 	* If you want to run stress tests in multiple threads add the following code file to pom.xml. You can run it with the following command.
 	
+	```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.22.0</version>
+    <configuration>
+        <parallel>methods</parallel>
+        <useUnlimitedThreads>true</useUnlimitedThreads>
+    </configuration>
+</plugin>
+``` 
 
 ### Test Automation Framework Guidelines:
 
@@ -73,5 +84,3 @@ Execution screenshots are placed in screenshots folder (screenshots/TestExecutio
 * There is a general problem for all api's. If we set the endpoints as invalid and call them, the .php extension files are displayed for the error message. A safer and more understandable error message may be displayed. Displaying all php file paths can also cause a security vulnerability.
 
 * Likewise, when the "id" field is sent invalid at the endpoints of getTaskAPI, putTaskAPI and getTaskAPI, the response message appears to be problematic. Again, the line numbers of the code file with the .php extension error are displayed. The error level must be changed.
-
-
