@@ -78,6 +78,8 @@ Execution screenshots are placed in screenshots folder (screenshots/TestExecutio
 * Reports are generated and placed in target folder `target/cucumber-html-report.html`
 * Sample reports look like this ! "target/TestReportScreenShot.png"
 
+![Test Report Screenshot](https://github.com/aliboztemir/TakeawayTestAutomation/blob/main/screenshots/TestReportScreenShot.png)
+
 ### Tools / libraries used :
 * Cucumber
 * Gherkin
