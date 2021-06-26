@@ -35,13 +35,27 @@
 ```
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
+    <artifactId>maven-failsafe-plugin</artifactId>
     <version>2.22.0</version>
-    <configuration>
-        <parallel>methods</parallel>
-        <useUnlimitedThreads>true</useUnlimitedThreads>
-    </configuration>
+    <executions>
+        <execution>
+            <goals>
+                <goal>integration-test</goal>
+                <goal>verify</goal>
+            </goals>
+            <configuration>
+                <parallel>methods</parallel>
+                <useUnlimitedThreads>true</useUnlimitedThreads>
+            </configuration>
+        </execution>
+    </executions>
 </plugin>
+To set the thread count to a specific number instead of useUnlimitedThreads use the below setting.
+
+<configuration>
+    <parallel>methods</parallel>
+    <threadCount>4</threadCount>
+</configuration>
 ```
 
 ### Test Automation Framework Guidelines:
